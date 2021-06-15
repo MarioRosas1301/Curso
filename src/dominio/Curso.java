@@ -20,6 +20,7 @@ public class Curso {
     }
     public void setPromedio(){
         //Necesitamos de una auxiliar para almacenar notas
+        //use el concepto de variables acumualadoras
         double promedio=0;
         //Utilizamos un ciclo for para los 12 estudiantes
         for(int i=0;i<12;i++){
@@ -29,6 +30,7 @@ public class Curso {
         this.promedio = Math.round(promedio/12);
     }
     public void setEstudiantesEncimaPromedio(){
+        //codigo duplicado en el anterior metodo
         int estudiantes=0;
         double promedio=0;
         for(int i=0;i<12;i++){
